@@ -8,7 +8,13 @@ body {
   margin: 0 auto;
   font-family: monospace;
    animation: fadein 2s;
+   -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
   /* font-size: larger; */
+}
+
+body::-webkit-scrollbar{
+  display: none;
 }
 
 .sendInqMobile{
@@ -284,6 +290,10 @@ footer{
 
 footer>p{
   margin-bottom: 0;
+}
+
+footer>p>a{
+  color: rgb(170, 123, 77);
 }
 
 @media only screen and (max-width: 425px) {
