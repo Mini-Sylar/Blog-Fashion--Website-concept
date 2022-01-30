@@ -465,6 +465,24 @@ button:hover {
   }
 }
 
+@media only screen and (max-width: 390px) {
+
+  .part1{
+    width: 7%;
+  }
+ .part3{
+     background-position-x: 63%;
+ }
+
+ /* Part 4 */
+.part4 {
+  width: 9%;
+  font-size: 12px;
+  background-color: transparent;
+}
+}
+
+
 /* Animations */
 @keyframes slide-right {
   to {
