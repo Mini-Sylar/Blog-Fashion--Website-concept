@@ -305,51 +305,67 @@ footer > p > a {
     display: flex;
     /* background-color: aqua; */
     width: 100%;
-    justify-content: space-between;
+    justify-content: space-evenly;
     position: relative;
     z-index: 2;
     bottom: 17%;
   }
 
-  .fb-mobile {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+
+  .mobileNav>button{
+    background-color: transparent;
+    border: 1px solid silver;
+    padding: 13px;
+    border-radius: 50%;
     width: 100%;
+  }
+
+
+button {
+  border-radius: 50%;
+  cursor: pointer;
+  display: inline-block;
+  padding: 7px 20px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 250ms;
+  border: 0;
+  font-size: 16px;
+  touch-action: manipulation;
+  -webkit-tap-highlight-color: transparent;
+}
+
+button:hover {
+  box-shadow: rgba(170,123,77,.35) 0 -25px 18px -14px inset,rgba(170,123,77,.25) 0 1px 2px,rgba(170,123,77,.25) 0 2px 4px,rgba(170,123,99,.77) 0 4px 8px,rgba(170,123,77,.25) 0 8px 16px,rgba(170,123,77,.25) 0 16px 32px;
+  transform: scale(1.05) rotate(-1deg);
+}
+
+
+
+  .fb-mobile {
     animation: slide-right 1s forwards;
     transform: translateY(-100%);
   }
 
   .tw-mobile {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
     animation: slide-right 1.5s forwards;
     transform: translateY(-100%);
     margin-left: 10px;
   }
 
   .in-mobile {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
     animation: slide-right 2s forwards;
     transform: translateY(-100%);
     margin-left: 10px;
   }
 
-  .mobileNav > a > i {
+  .mobileNav > button > i {
     font-size: 20px;
     color: rgb(192, 192, 192);
-    border: 1px solid rgba(192, 192, 192, 0.637);
-    border-radius: 50%;
-    padding: 12px;
-    width: 100%;
     display: flex;
     justify-content: center;
   }
+
 
   .fa-facebook-f {
     animation: slide-right 1.2s forwards;
