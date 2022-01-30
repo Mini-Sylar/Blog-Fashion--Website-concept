@@ -302,33 +302,38 @@ footer > p > a {
   }
 
   .mobileNav {
-    display: flex;
-    /* background-color: aqua; */
-    width: 100%;
-    justify-content: space-evenly;
+    /* background-color: whitesmoke; */
+    margin: 0 auto;
     position: relative;
     z-index: 2;
     bottom: 17%;
+      display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  transform: scale(0.7);
   }
 
+  .fab{
+    color: silver;
+    font-size: 24px;
+    padding: 25px;
+    margin: 0 auto;
+  }
 
   .mobileNav>button{
     background-color: transparent;
     border: 1px solid silver;
-    border-radius: 50%;
+    
   }
 
 
 button {
   border-radius: 50%;
   cursor: pointer;
-  display: inline-block;
-  padding: 7px 7px;
   text-align: center;
   text-decoration: none;
   transition: all 250ms;
   border: 0;
-  font-size: 16px;
   touch-action: manipulation;
   -webkit-tap-highlight-color: transparent;
 }
@@ -355,13 +360,6 @@ button:hover {
     animation: slide-right 2s forwards;
     transform: translateY(-100%);
     margin-left: 10px;
-  }
-
-  .mobileNav > button > i {
-    font-size: 20px;
-    color: rgb(192, 192, 192);
-    display: flex;
-    justify-content: center;
   }
 
 
