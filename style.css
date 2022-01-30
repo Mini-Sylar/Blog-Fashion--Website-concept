@@ -304,27 +304,30 @@ footer > p > a {
   .mobileNav {
     /* background-color: whitesmoke; */
     margin: 0 auto;
-    position: relative;
+    position: absolute;
     z-index: 2;
-    bottom: 17%;
+    /* bottom: 17%; */
       display: flex;
   align-items: center;
   justify-content: space-evenly;
-  transform: scale(0.6);
+  width:40% ;
+  top: 3%;
+  transform: scale(1.2);
   }
 
   .fab{
+    font-size: 17px;
     color: silver;
-    font-size: 24px;
-    padding: 20px;
-    margin: 0 auto;
+  
   }
 
   .mobileNav>button{
     background-color: transparent;
-    border: 1px solid silver;
-    
+    /* border: 1px solid rgb(192, 192, 192); */
+   padding: 0.5em 0.6em;
+   margin: 0 auto;
   }
+
 
 
 button {
@@ -341,6 +344,8 @@ button {
 button:hover {
   box-shadow: rgba(170,123,77,.35) 0 -25px 18px -14px inset,rgba(170,123,77,.25) 0 1px 2px,rgba(170,123,77,.25) 0 2px 4px,rgba(170,123,99,.77) 0 4px 8px,rgba(170,123,77,.25) 0 8px 16px,rgba(170,123,77,.25) 0 16px 32px;
   transform: scale(1.05) rotate(-1deg);
+  border: 0;
+  border-color: transparent;
 }
 
 
