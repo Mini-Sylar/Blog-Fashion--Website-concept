@@ -315,9 +315,7 @@ footer > p > a {
   .mobileNav>button{
     background-color: transparent;
     border: 1px solid silver;
-    padding: 13px;
     border-radius: 50%;
-    width: 100%;
   }
 
 
@@ -325,7 +323,7 @@ button {
   border-radius: 50%;
   cursor: pointer;
   display: inline-block;
-  padding: 7px 20px;
+  padding: 7px 7px;
   text-align: center;
   text-decoration: none;
   transition: all 250ms;
