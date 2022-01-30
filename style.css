@@ -296,9 +296,81 @@ footer>p>a{
   color: rgb(170, 123, 77);
 }
 
+
+/* ================== Mobile Screen ================= */
 @media only screen and (max-width: 425px) {
   .MainNav {
     visibility: hidden;
+  }
+
+  .mobileNav{
+    display: flex;
+    /* background-color: aqua; */
+    width: 100%;
+    justify-content: space-evenly;
+    position:relative;
+    z-index: 2;
+    bottom:15%;
+
+  }
+
+  .fb-mobile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid rgba(192, 192, 192, 0.199);
+    border-radius: 50%;
+    width: 100%;
+    height: 40px;
+    margin :auto 5px;
+      animation: slide-right 1s forwards;
+    transform:translateY(-100%);
+  }
+
+  .tw-mobile{
+ display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid rgba(192, 192, 192, 0.199);
+    border-radius: 50%;
+    width: 100%;
+    height: 40px;
+    margin :auto 5px;
+      animation: slide-right 1.5s forwards;
+    transform:translateY(-100%);
+  }
+
+  .in-mobile{
+ display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid rgba(192, 192, 192, 0.199);
+    border-radius: 50%;
+    width: 100%;
+    height: 40px;
+    margin :auto 5px;
+      animation: slide-right 2s forwards;
+    transform:translateY(-100%);
+  }
+
+  .mobileNav>a>i{
+    font-size: 24px;
+   color: rgb(192, 192, 192);
+  }
+
+  .fa-facebook-f{
+     animation: slide-right 1.2s forwards;
+    transform:translateY(-100%);
+  }
+
+  .fa-twitter{
+  animation: slide-right 1.2s forwards;
+    transform:translateY(-100%);
+  }
+
+  .fa-instagram{
+      animation: slide-right 1.5s forwards;
+    transform:translateY(-100%);
   }
 
   .boxes {
